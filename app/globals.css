@@ -1,26 +1,100 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: var(--font-lora), ui-serif, Georgia, Cambria, serif;
+  --font-handwriting: var(--font-caveat), cursive;
+  
+  --color-cream-light: #fdfcf9;
+  --color-cream: #faf7f0;
+  --color-cream-dark: #f3ecdb;
+  --color-cork: #8c6a46;
+  --color-charcoal: #2c1d11;
+  --color-kraft: #d8c3a5;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #faf7f0;
+  --foreground: #2c1d11;
 }
 
 body {
-  background: var(--background);
+  font-family: var(--font-serif);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* A beautiful vintage scrapbook grid/dots pattern */
+  background-image: 
+    radial-gradient(#e0d7c5 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-attachment: fixed;
+}
+
+/* Custom lined paper style */
+.lined-paper {
+  background-color: #fbfbf9;
+  background-image: linear-gradient(rgba(224, 215, 197, 0.6) 1px, transparent 1px);
+  background-size: 100% 2rem;
+  line-height: 2rem;
+  position: relative;
+}
+
+/* Lined paper red left margin line */
+.lined-paper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2rem;
+  width: 1px;
+  background-color: rgba(239, 68, 68, 0.4); /* soft red margin line */
+  pointer-events: none;
+}
+
+/* Polaroid Photo Card styling */
+.polaroid-card {
+  background-color: #ffffff;
+  padding: 12px 12px 24px 12px;
+  box-shadow: 0 4px 10px rgba(44, 29, 17, 0.12), 0 1px 2px rgba(44, 29, 17, 0.06);
+  border: 1px solid rgba(44, 29, 17, 0.05);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.polaroid-card:hover {
+  transform: scale(1.03) rotate(0deg) !important;
+  box-shadow: 0 10px 20px rgba(44, 29, 17, 0.18), 0 4px 6px rgba(44, 29, 17, 0.1);
+  z-index: 20;
+}
+
+/* Scrapbook sticky tape effect */
+.washi-tape {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 90px;
+  height: 26px;
+  background-color: rgba(241, 230, 196, 0.7);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  z-index: 10;
+  backdrop-filter: blur(0.5px);
+  /* Jagged edges using mask or linear-gradients */
+  clip-path: polygon(
+    0% 10%, 5% 0%, 10% 8%, 15% 0%, 20% 7%, 25% 1%, 30% 9%, 35% 0%, 40% 6%, 45% 0%, 
+    50% 8%, 55% 1%, 60% 7%, 65% 0%, 70% 9%, 75% 2%, 80% 6%, 85% 0%, 90% 8%, 95% 1%, 
+    100% 10%, 100% 90%, 95% 100%, 90% 92%, 85% 98%, 80% 91%, 75% 99%, 70% 92%, 65% 97%, 
+    60% 90%, 55% 98%, 50% 91%, 45% 99%, 40% 92%, 35% 97%, 30% 91%, 25% 99%, 20% 92%, 
+    15% 97%, 10% 90%, 5% 99%, 0% 90%
+  );
+}
+
+.washi-tape-pink {
+  background-color: rgba(24bc, 210, 210, 0.65);
+}
+
+.washi-tape-blue {
+  background-color: rgba(200, 222, 235, 0.65);
+}
+
+/* Shadow drop for pushpins */
+.pushpin {
+  filter: drop-shadow(0 2px 3px rgba(44, 29, 17, 0.3));
 }
