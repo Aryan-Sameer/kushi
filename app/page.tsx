@@ -81,9 +81,6 @@ export default function LoginPage() {
           <h1 className="font-handwriting text-5xl md:text-6xl text-[#8c6a46] mb-2 drop-shadow-sm select-none">
             TrueShe ka Janmdin
           </h1>
-          <p className="font-serif italic text-sm text-[#2c1d11]/70">
-            A safe space of shared stories and warm memories.
-          </p>
         </div>
 
         {/* Polaroid Style Decor */}
