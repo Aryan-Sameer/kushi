@@ -227,7 +227,7 @@ export default function NotesPage() {
 
         {/* Footer */}
         <footer className="text-center font-handwriting text-2xl text-[#2c1d11]/40 border-t border-[#2c1d11]/10 pt-8 mt-8">
-          ❤️ trueshi ka janmdin ❤️
+          ❤️ TrueShe ka janmdin ❤️
         </footer>
       </div>
     </AuthGuard>

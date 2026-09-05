@@ -134,7 +134,7 @@ export default function LoginPage() {
 
         {/* Vintage Label on the bottom */}
         <div className="mt-8 text-center text-xs text-[#2c1d11]/40 font-serif border-t border-[#2c1d11]/5 pt-4">
-          trueshi ka janmdin © 2026. Made with ❤️
+          TrueShe ka janmdin © 2026. Made with ❤️
         </div>
       </div>
     </main>

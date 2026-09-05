@@ -12,7 +12,7 @@ export interface ScrapbookData {
 }
 
 export const scrapbookData: ScrapbookData = {
-  title: 'trueshi ka janmdin',
+  title: 'TrueShe ka janmdin',
   titleImage: '/pictures/title_image.png',
   paragraphs: [
     `Hello Sushi! 🙌🏻\nHow are you\n\nHappy birthdayyy!!\nI thought to write for the signature day but i felt lazy and didn't. chalo birthday hai na... signature day bi isi mai hojayega..`,
@@ -21,11 +21,11 @@ export const scrapbookData: ScrapbookData = {
 
     `It was the 1st year... I noticed her posting random stories about her work. I was curious to know what she was doing.. I used to ask her about it and one day she asked a normal question.. something like.. its already 11 wont you sleep... and from there the convos changed from professional to pura casual in no time. That's when I discovered the silly side of her.`,
 
-    `We started talking a lot, roasting each other, arguments, fun and jokes.. and most of our convos were about complaining about the college, subjects and the faculty but not studying... and somehow she became a very good friend..`,
+    `We started talking a lot, roasting each other, arguments, fun and jokes.. and most of our convos were about complaining about the college, subjects and the faculty but not studying... and slowly she became a very good friend..`,
 
-    `and wo time kitna acha tha jab mid exams start hue and we have stayed in clg to study but did everything other than studying... and when me and praneeth decided to go to her home when she texted me that shes bored.. and that time when insta mai notes feature aaya she, me and khaleel used to talk in that, making pizza on photos, and the time we spent in the NASA hackathon, and moreee. 1st year boohothh bhadiya tha.. ohh also, she is a singer 😂 I like her zara zara song.`,
+    `we made good memories 1st year mai like jab mid exams start hue we have stayed in clg to study but did everything other than studying played skribble, constructed cards house... and when me and praneeth decided to go to her home when she texted me that shes bored.. and that time when insta mai notes feature aaya she, me and khaleel used to talk in that, making pizza on photos, and the time we spent in the NASA hackathon, and moreee. 1st year boohothh bhadiya tha.. ohh also, she is a singer 😂 I like her zara zara song.`,
 
-    `then came the 2nd year...\nwe spent a really good time in CU and only a month after returning things have gone so worse...🥲 however she's the one who first asked me my opinion and my pov for what happened..\n\n2nd year tho bas esi hogayi without anything special.. 🥲 grp mai disturbance and silence is the only thing im remembering 💀\n\naree haa wo cubes wala thing with photos after returning from CU... kitna masth chees banayi usne!! ithna time and efforts studies mai lagayi tho us sem mai least gpa nai aati`,
+    `then came the 2nd year...\nwe spent a really good time in CU and only a month after returning things have gone so worse...🥲 however she's the one who first asked me my opinion and my pov for what happened..\n\n2nd year tho bas esi hogayi without anything special.. 🥲 grp mai disturbance and silence is the only thing im remembering 💀\n\naree haa wo cubes wala thing with photos after returning from CU... kitna masth chees banayi usne!! ithna time and efforts studies mai lagayi tho us sem mai acha gpa aati`,
 
     `But the 3rd year was good! after all the nonsense in 2nd year, we all again started talking from 3rd year. we went out for prasads, warangal, wonderla, khaleja movie, celebrated birthdays, farewell ke time pe dance.. and got back the 'rizzlers' feel.. ek baar she scolded me whole day cuz we went to play cricket without informing her 💀 and dont know how many times we complained about travelling so far and staying in hostel (ofc, not to reduce travelling but to increase masthi 😂) and many times my ears commited suicide by listening her songs. and playing skribble in Gmeet and talking in that ten ten app, and afternoons mai carroms.. aur har exam ke time pe we would discuss wt to study how much done and all... and har baar bunk maarke attendance keliye puchthi thi... shameless 🙂 esa bohoth sare choto choto memories we had...\n\n`,
 
@@ -33,9 +33,9 @@ export const scrapbookData: ScrapbookData = {
 
     `fir hogaya life serious! 'major project' socha nai wo word muje trauma dhega. and all stupid things i did.. har step pe ek mistake, har chees ka explanation.\n\nthe less i talk about the better it is 🫠\n\nlekin at last everything ended... and it's just a part of the story now..`,
 
-    `Aur bi hai but i can't think of everything as of now... every little memory feels really good.. pata nai kese 4 saal ithna jaldi beeth gaye.. 🥲\n\nanyways, it was a great time, and i just wish she achieve everything she wants in life..\n\nache ideas tho hai uski dimag mai.. but kya kare.. sir tho reply nai dhete 😐`,
+    `Aur bi hai but i can't think of everything as of now... every little memory feels really good.. pata nai kese 4 saal ithna jaldi beeth gaye.. 🥲\n\nanyways, it was a great time, and i just wish she achieve everything she wants in life..\n\nache ideas tho hai uski dimag mai.. but kya kare.. sir tho reply nai dhete 😐\n\n`,
 
-    `Aur tu dhek... how use less u are. kitna mood swings, har cheese pe ladai karti hai, kitna nonsense baathe karti hai, kuch bi sidha nai bolti, Schneider ka party bi nai di tu ne, birthday ka bi nahi. learn something from her.`
+    `Aur tu dhek... how use less u are. kitna mood swings, har cheese pe ladai karti hai, kitna nonsense baathe karti hai, kuch bi sidha nai bolti, sometimes i feel like tu ladki hi nahi hai 🚶‍♂️, Schneider ka party bi nai di tu ne, ab birthday ka bi nahi. learn something from her. 👺`
   ],
   photos: [
     { id: 1, src: '/pictures/photo_1.png', alt: 'Memory photo 1' },

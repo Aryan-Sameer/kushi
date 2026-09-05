@@ -15,8 +15,8 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "trueshi ka janmdin",
-  description: "A cozy scrapbook of memories for Trueshi's birthday.",
+  title: "TrueShe ka janmdin",
+  description: "A cozy scrapbook of memories for TrueShe's birthday.",
 };
 
 export default function RootLayout({
