@@ -87,10 +87,10 @@ export default function LoginPage() {
         <div className="flex justify-center mb-8">
           <div className="bg-white border border-[#2c1d11]/10 shadow-md p-2 pb-5 rotate-[-4deg] max-w-[140px] transform hover:rotate-0 transition-transform duration-300">
             <div className="w-28 h-28 bg-[#d8c3a5]/30 flex items-center justify-center text-3xl">
-              🔑
+              <img className="w-full h-full object-cover text-sm" src="/pictures/cover_photo.jpeg" alt="Ur face" />
             </div>
-            <div className="font-handwriting text-center text-xs mt-2 text-[#8c6a46] font-bold">
-              locked box
+            <div className="font-handwriting text-center mt-2 text-[#8c6a46] font-bold">
+              Happy Birthday 👽
             </div>
           </div>
         </div>
