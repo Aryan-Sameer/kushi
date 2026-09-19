@@ -35,7 +35,7 @@ export const scrapbookData: ScrapbookData = {
 
     `Aur bi hai but i can't think of everything as of now... every little memory feels really good.. pata nai kese 4 saal ithna jaldi beeth gaye.. 🥲\n\nanyways, it was a great time, and i just wish she achieve everything she wants in life..\n\nache ideas tho hai uski dimag mai.. but kya kare.. sir tho reply nai dhete 😐\n\n`,
 
-    `Aur tu dhek... how use less u are. kitna mood swings, har cheese pe ladai karti hai, kitna nonsense baathe karti hai, kuch bi sidha nai bolti, sometimes i feel like tu ladki hi nahi hai 🚶‍♂️, and teek se text karna bi nai aathi.. 10 words mai 9 words spelling mistakes honge 💀 5 min - 10 min bolke 2 hrs mai aayegi, OE exam mai help nai karthi 🙄, korean seek ke japan jaane ko sochri,\n aur tu Schneider ka party bi nai di, ab birthday ka bi nahi. learn something from her. 👺\n\n aree haa! tera cake cutting kabi nai kiya naa.. ye lo, ye cake kaatke kaalo\n 👉🎂🎉`
+    `Aur tu dhek... how use less u are. kitna mood swings, har cheese pe ladai karti hai, kitna nonsense baathe karti hai, kuch bi sidha nai bolti, sometimes i feel like tu ladki hi nahi hai 🚶‍♂️, and teek se text karna bi nai aathi.. 10 words mai 9 words spelling mistakes honge 💀 5 min - 10 min bolke 2 hrs mai aayegi, OE exam mai help nai karthi 🙄, korean seek ke japan jaane ko sochri,\n aur tu Schneider ka party bi nai di, ab birthday ka bi nahi. learn something from her. 👺aree haa! tera cake cutting kabi nai kiya naa.. ye lo, ye cake kaatke kaalo\n 👉🎂🎉`,
   ],
   photos: [
     { id: 1, src: '/pictures/photo_1.png', alt: 'Memory photo 1' },
@@ -59,5 +59,6 @@ export const scrapbookData: ScrapbookData = {
     { id: 19, src: '/pictures/photo_19.png', alt: 'Memory photo 19' },
     { id: 20, src: '/pictures/photo_20.png', alt: 'Memory photo 20' },
     { id: 21, src: '/pictures/photo_21.png', alt: 'Memory photo 21' },
+    { id: 22, src: '/pictures/photo_22.jpeg', alt: 'Memory photo 22' },
   ]
 };
