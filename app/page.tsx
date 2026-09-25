@@ -90,7 +90,7 @@ export default function LoginPage() {
               <img className="w-full h-full object-cover text-sm" src="/pictures/cover_photo.jpeg" alt="Ur face" />
             </div>
             <div className="font-handwriting text-center mt-2 text-[#8c6a46] font-bold">
-              Happy Birthday 👽
+              Happy Birthday chudeeel 👽
             </div>
           </div>
         </div>
